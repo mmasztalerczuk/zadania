@@ -1,0 +1,38 @@
+1) Zaimplemenuj dodatkowa metode do klasy Dziennik ktora dzieli studentow na rowne grupy o wielkosci Napisz
+2) Zaimplementuj dodatkowa metode do klasy Dziennik ktora pozwoli sparowac uczniow wzgledem sredniej
+Student z najwieksza srednia powinnien byc w parze z studentem z najmniejsza srednia
+
+3) Zaimplemetuj funkcję która będzie zwracać wspólne litery dla zadanych parametrów
+4) Stworz prosty pakiet który będzie reprezentował listę zakupów
+-> Powinnieś mieć klase ShoppingList
+metody:
+-> add_product
+-> remove_product
+-> check_total_cost
+-> sort_by_calories
+-> get_products
+
+-> Powinnieś mieć klase ShoppingItem
+metody:
+-> get_name,
+-> get_cost,
+-> get_calories
+
+Zaimplementuj __str__, __repr__, __len__, __lt__ (dla sprawdzania ktory produkt ma mniej/wiecej kalori)
+5) Zaimplementuj ksiazke telefonicza ktora pozwoli szukac ludzi po numerze telefonu, ale i po adressie
+Zaimplementuj klase Person:
+-> set_street_name
+-> set_home_number
+
+Zaimplementuj klase PhoneBook
+-> Powinna ona miec metode add_phone(phone_number, Person)
+-> Powinna ona miec metode get_person_by_phone(phone)
+-> Powinna ona miec metode get_person_by_street_address
+
+
+
+
+2) [Ciężkie] Zaimplemetuj grę w zgadywanie liczbę.
+Program wybiera losowa liczbę pomiędzy 1 a 100. Użytkownik próbuje ją zgadąć. Jak nie trafi do dostaje odpowiedź: "Za dużo", albo
+"za mało"
+3) [Ciężkie] Napisz program który szyfruje ciąg znaków szyfrem cezara i go rozszyfrowuje
